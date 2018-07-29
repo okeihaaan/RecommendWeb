@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Rounded Mplus 1c","Yu Gothic", "YuGothic", serif;
+    color: #382F2E;
+}
+
+a{
+    text-decoration: none;
+    color: #00B4C1;
+    font-weight: 600;
+}
+
+a:hover{
+    font-weight: 800;
+}
+
+header{
+
+}
+
+h1{
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+nav{
+    text-align: center;
+    background-color: #ADD1DD;
+    padding: 5px;;
+}
+
+nav a{
+    color: #382F2E;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: .2em;
+}
+
+nav a:hover{
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.content{
+    padding: 30px 5%;
+}
+.content h2{
+    border-left: 5px dashed #00B4C1;
+    padding-left: 10px;
+    letter-spacing: .1em;
+}
+
+.content h3{
+    margin-left: 30px;
+    padding-left: 20px;
+    border-bottom: dotted 4px #fff;
+    border-radius: 10px;
+    width: 93%;
+}
+
+.content ul{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.content ul li{
+    list-style: none;
+    padding-left: 5px;
+    padding: 20px;
+}
+
+.card{
+    padding: 5px;
+    width: 245px;
+    -min-width: 200px;
+    height: 320px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 0px 10px #d6ebff; */
+    border: dashed 3px #ADD1DD;
+    box-shadow: 0 0 0 12px #fff ;
+    text-align: center;
+    margin: 20px;
+}
+
+.card img{
+    padding: 6px;
+}
+
+.card p{
+    color: #382F2E;
+}
+
+.useful{
+    background-color: #E8E074;
+}
+
+footer{
+    text-align: center;
+    background-color: #ADD1DD;
+    padding: 3px;
+    color: #382F2E;
+    font-weight: 800;
+    letter-spacing: .2em;
+}
